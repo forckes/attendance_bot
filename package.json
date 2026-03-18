@@ -1,0 +1,14 @@
+{
+	"name": "attendance-bot",
+	"description": "Made for 6 group of DevOps class, TUKE to list participants in a voice call. By Taras Lytvynenko",
+	"author": "forckes",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"discord.js": "^14.25.1",
+		"dotenv": "^17.3.1"
+	}
+}
