@@ -98,7 +98,7 @@ client.on('interactionCreate', async interaction => {
 			.setColor(0x5865f2)
 			.setTitle(`📋 Cvičenie ${number}`)
 			.setDescription(
-				`📅 Date: ${date}\n⏰ Time: ${time}\n Voice channel: ${channel.name}\n👥 Total: ${members.length}\n\n⬇👥 Participants:`,
+				`📅 Date: ${date}\n Voice channel: ${channel.name}\n👥 Total: ${members.length}\n\n⬇👥 Participants:`,
 			)
 			.addFields({ name: '\u200B', value: list })
 			.setTimestamp()
